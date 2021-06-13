@@ -1,0 +1,130 @@
+body{
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+.logo-image {
+    width: 346px;
+    height: 55px;
+}
+.nav-item .nav-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #595959;
+    margin-left: 32px;
+}
+.nav-item .home-link {
+    margin-left: 75px;
+}
+.nav-item .btn {
+    background-color: #FFFFFF;
+    color: #F1886D;
+    border-radius: 24.5px;
+    box-shadow: 0px 4px 4px rgba(63, 96, 98, 0.25);
+    width: 126px;
+    height: 49px;
+}
+.navbar {
+    background-color: #FFFFFF;
+}
+body {
+    background-color: #F1886D;
+}
+
+/* NEWS SECTION */
+#news {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.rumour {
+    float: flex;
+    width: 100%;
+}
+.headlines {
+    float: right;
+    width: 100%;
+}
+.rumour-heading {
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.headlines-heading {
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 5%;
+    text-align: center;
+}
+.card {
+    background: #FFEBE7;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 592px;
+    height: 270px;
+    padding: 3%;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 36px;
+    color: #F1886D;
+}
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.post-link {
+    color: #F1886D;
+}
+.top-card {
+    margin-top: 7.6%;
+}
+.inner-circle {
+    position: absolute;
+    width: 454px;
+    height: 454px;
+    left: -275px;
+    top: 1000px;
+    border: 1px solid #595959;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -1;
+}
+.outer-circle {
+    position: absolute;
+    width: 541px;
+    height: 541px;
+    left: -287px;
+    top: 956px;
+    border: 1px solid #595959;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -1;
+}
+.buttons {
+    margin-left: 26%;
+    margin-top: 2%;
+}
+.btn-danger {
+    margin-left: 10%;
+    width: 100px;
+    border-radius: 10px;
+}
+.btn-success {
+    width: 100px;
+    border-radius: 10px;
+}

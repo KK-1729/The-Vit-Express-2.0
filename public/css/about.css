@@ -1,0 +1,54 @@
+/* NAVBAR */
+.logo-image {
+    width: 346px;
+    height: 55px;
+}
+.nav-item .nav-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #595959;
+    margin-left: 32px;
+}
+.nav-item .home-link {
+    margin-left: 75px;
+}
+.nav-item .btn {
+    background-color: #FFFFFF;
+    color: #F1886D;
+    border-radius: 24.5px;
+    box-shadow: 0px 4px 4px rgba(63, 96, 98, 0.25);
+    width: 126px;
+    height: 49px;
+}
+.navbar {
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #F1886D;
+}
+.about {
+    background-color: #FFEBE7;
+    padding: 4%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+.about-head {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 48px;
+    color: #F1886D;
+    text-align: center;
+}
+.about-text {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 5%;
+    text-align: justify;
+}

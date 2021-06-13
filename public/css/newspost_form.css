@@ -1,0 +1,93 @@
+/* NAVBAR */
+.logo-image {
+    width: 346px;
+    height: 55px;
+}
+.nav-item .nav-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #595959;
+    margin-left: 32px;
+}
+.nav-item .home-link {
+    margin-left: 75px;
+}
+.nav-item .btn {
+    background-color: #FFFFFF;
+    color: #F1886D;
+    border-radius: 24.5px;
+    box-shadow: 0px 4px 4px rgba(63, 96, 98, 0.25);
+    width: 126px;
+    height: 49px;
+}
+
+.post-form {
+    font-family: sans-serif;
+    background-color: #F1886D;
+    padding-bottom: 4%;
+}
+#banner
+{
+    color: black;
+    padding-top: 5%;
+    align-items: center;
+}
+
+.ptitle
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50;
+    font-family: 'Brush Script MT';
+}
+/*inputs section*/
+#inputs
+{
+    
+    color: black;
+    padding-top: 1%;
+}
+
+.mb-3
+{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: cursive;
+}
+.rl1
+{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: cursive;
+}
+.col-12
+{
+    width : 30;
+    margin-bottom: 50px;
+}
+.btn-lg {
+    background-color: #F1886D;
+    color: #595959;
+    width: 160px;
+    height: 45px;
+    border-radius: 44px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-left: 42%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.card {
+    background: #FFEBE7;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    transform: translateY(70px);
+    margin-bottom: 5%;
+    padding-top: 2%;
+}

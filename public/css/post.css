@@ -1,0 +1,276 @@
+/* NAVBAR */
+.logo-image {
+    width: 346px;
+    height: 55px;
+}
+.nav-item .nav-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #595959;
+    margin-left: 32px;
+}
+.nav-item .home-link {
+    margin-left: 75px;
+}
+.nav-item .btn {
+    background-color: #FFFFFF;
+    color: #F1886D;
+    border-radius: 24.5px;
+    box-shadow: 0px 4px 4px rgba(63, 96, 98, 0.25);
+    width: 126px;
+    height: 49px;
+}
+.navbar {
+    background-color: #FFFFFF;
+}
+
+
+.post {
+    padding-bottom: 5%;
+    padding-top: 10%;
+    background-color: #F1886D;
+}
+.post-image {
+    width: 300px;
+    height: 350px;
+    margin-bottom:5%;
+}
+
+#already_liked{
+    margin-left: 530px;
+    margin-top:-55px;
+    margin-bottom: 100px;
+}
+
+form{
+    margin-top:-24px;
+}
+
+#not_yet_liked{
+    margin-left: 530px;
+    margin-top:-55px;
+    margin-bottom: 100px;
+}
+
+
+#not_yet_disliked{
+    margin-bottom:120px;
+    margin-top: -114px;
+    margin-right: 220px;
+    float: right;
+}
+
+#already_disliked{
+    margin-bottom:120px;
+    margin-top: -114px;
+    margin-right: 220px;
+    float: right;
+}
+
+
+.fas,.far{
+    color:#f1886d;
+}
+
+.lk{
+    color:red;
+}
+
+
+.fa-bookmark{
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+.bookmarked{
+    font-size: 18px;
+    float: right;
+    margin-top: -12px;
+    margin-right: 20px;
+}
+
+.save{
+    float: right;
+    margin-top:-25px;
+}
+.left_icons{
+    margin-left: 330px;
+    margin-top: -40px;
+}
+.left_icons a{
+   margin-left: 50px;
+}
+
+
+
+.container {
+    background: #FFEBE7;
+    padding: 5%;
+    padding-bottom: 3%;
+    border-radius: 50px;
+}
+
+.post-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 48px;
+    color: #F1886D;
+}
+.post-class {
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.post-content {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.btn-lg {
+    background-color: #FFFFFF;
+    color: #595959;
+    width: 247px;
+    height: 60px;
+    border-radius: 44px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 16%;
+    margin-top: 3%;
+    padding-left: 0;
+}
+.far,fas,#post_button{
+    transition: transform .2s !important;
+}
+
+#post_button{
+    position:absolute;
+    margin-left: 50px;
+    margin-top:-45px !important;
+}
+
+.far:hover,#post_button:hover{
+    transform: scale(1.3) !important;
+}
+.fas:hover{
+    transform: scale(3.1) !important;
+}
+#post_button{
+    float:right;
+    margin-right:325px;
+    margin-top:55px;
+    border:2px solid #F1886D;
+    background-color: #F1886D;
+    color: white;
+    padding:10px;
+    border-radius:15px;
+    display:none;
+}
+.fas {
+    transform: scale(2.5);
+}
+.like, .dislike,.unlike,.undislike {
+    position: absolute;
+    transform: translateY(20px);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 570px;
+}
+.likes, .dislikes {
+    font-size: 20px;
+    color: rgb(128, 34, 34);
+    transform: translateX(10px);
+}
+.like{
+    position: absolute;
+    margin-top: -50px;
+
+}
+.dislike{
+    position: absolute;
+    margin-left: 710px;
+    margin-top: -45px;
+}
+.unlike{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 580px;
+    font-size:18px !important;
+
+}
+.undislike{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: -25px;
+    font-size: 18px !important;
+}
+.like a, .dislike a{
+    color: #282d33;
+}
+.like a:hover {
+    color: #008000;
+}
+.dislike a:hover {
+    color: #E60000;
+}
+
+.unlike,.undislike{
+    font-size: 20px;
+}
+
+.comment-tab {
+    
+    padding: 1%;
+    padding-left: 4%;
+    border-radius: 25px;
+    margin-top: 2%;
+    padding-left: 1.5%;
+}
+.username {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(128, 34, 34);
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 1%;
+}
+.comment {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bc{
+    height: 400px;
+}
+
+.textarea{
+    margin-left: 50px;
+    margin-top: -70px;
+    display:none;
+    height:60px;
+    font-size:12px;
+    white-space: pre-wrap;
+}
+
+.fa-comment{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 40px;
+    margin-bottom: 200px;
+    margin-left: 140px;
+}
+.time {
+    color: rgb(89, 89, 89)
+}

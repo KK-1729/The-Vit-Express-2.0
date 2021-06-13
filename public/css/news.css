@@ -1,0 +1,159 @@
+body{
+    overflow-x: hidden;
+}
+/* NAVBAR */
+.logo-image {
+    width: 346px;
+    height: 55px;
+}
+.nav-item .nav-link{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #595959;
+    margin-left: 32px;
+}
+.nav-item .home-link {
+    margin-left: 75px;
+}
+.nav-item .btn {
+    background-color: #FFFFFF;
+    color: #F1886D;
+    border-radius: 24.5px;
+    box-shadow: 0px 4px 4px rgba(63, 96, 98, 0.25);
+    width: 126px;
+    height: 49px;
+}
+
+/* MARQUEE */
+.tag {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    color: #595959;
+}
+.inner-marquee {
+    background-color: #F1886D;
+    background-size: 50%;
+}
+
+/* QUESTION */
+.jumbotron {
+    background-color: #F1886D;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+.display-4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 64px;
+    /* margin-top: 3%; */
+    /* margin-left: 86px; */
+}
+.btn-lg {
+    background-color: #FFFFFF;
+    color: #595959;
+    width: 247px;
+    height: 60px;
+    border-radius: 44px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-left: 86px;
+    /* margin-bottom: 8%; */
+    padding-left: 0;
+}
+.fa-arrow-right {
+    transform: scale(2.5, 0.5);
+    color: #F1886D;
+    padding-left: 5%;
+}
+
+/* NEWS SECTION */
+#news {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.rumour {
+    width: 50%;
+}
+.headlines {
+    float: right;
+    width: 50%;
+}
+.rumour-heading {
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.headlines-heading {
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 5%;
+    text-align: center;
+}
+.card {
+    background: #FFEBE7;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 592px;
+    height: 190px;
+    padding: 3%;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 36px;
+    color: #F1886D;
+}
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.post-link {
+    color: #F1886D;
+}
+.top-card {
+    margin-top: 7.6%;
+}
+.inner-circle {
+    position: absolute;
+    width: 454px;
+    height: 454px;
+    left: -275px;
+    top: 1000px;
+    border: 1px solid #595959;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -1;
+}
+.outer-circle {
+    position: absolute;
+    width: 541px;
+    height: 541px;
+    left: -287px;
+    top: 956px;
+    border: 1px solid #595959;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: -1;
+}
